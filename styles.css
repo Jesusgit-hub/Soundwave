@@ -1,0 +1,65 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Romans', sans-serif;
+  background-color: #181b1e;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: linear-center(120deg, #0a141f, #494d52);
+  color: white;
+  padding: 1rem 1.5rem;
+  
+}
+
+.menu-lateral {
+    width: 220px;
+    background-color: #22262b;
+    padding: 20px;
+    border-right: 2px solid #48453c;
+}
+
+.menu-lateral ul {
+    list-style: none;
+}
+
+.menu-lateral li {
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #2d3338;
+    border-radius: 8px;
+    color: white;
+    transition: 0.3s;
+}
+
+.menu-lateral li:hover {
+    background-color: #3f464d;
+    cursor: pointer;
+}
+
+
+
+.recuadrofotos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    
+}
+
+.fotos img {
+    width: 80%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    border: 1px solid #48453c;
+}
+
